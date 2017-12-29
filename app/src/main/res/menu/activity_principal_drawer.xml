@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Pedro"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Pedro" />
+        <item
+            android:id="@+id/Juan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Juan" />
+        <item
+            android:id="@+id/Martin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Martin" />
+    </group>
+
+    <item android:title="Hermanos">
+        <menu>
+            <item
+                android:id="@+id/Jeny"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Jeny" />
+            <item
+                android:id="@+id/Darina"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Darina" />
+        </menu>
+    </item>
+
+    <item android:title="Primos">
+        <menu>
+            <item
+                android:id="@+id/Wicho"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Wicho" />
+            <item
+                android:id="@+id/Gil"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gil" />
+        </menu>
+    </item>
+
+</menu>
